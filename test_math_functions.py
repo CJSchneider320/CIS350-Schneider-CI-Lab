@@ -19,3 +19,11 @@ def test_calc_multiply_fail():
 def test_calc_divide():
  output = divide_numbers(10,2)
  assert output == 5
+
+def test_calc_power():
+ output = power(2, 3)
+ assert output == 8
+
+def test_calc_mod():
+ output = modulus(7, 5)
+ assert output == 2
